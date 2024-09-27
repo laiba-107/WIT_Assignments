@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: calc(25% - 10px);
+            border-radius: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .gallery img {
+                width: calc(50% - 10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Image Gallery</h1>
+    <div class="gallery">
+        <img src="C:\LaibaPython\download (1).jpeg" alt="Image 1">
+        <img src="C:\LaibaPython\download (2).jpeg" alt="Image 2">
+        <img src="C:\LaibaPython\download.jpeg" alt="Image 3">
+        <img src="C:\LaibaPython\photo-1620435363451-b84b06e6de72.jpeg" alt="Image 4">
+    </div>
+</body>
+<br><a href=""></a>Next Exericse</html></br>
+</html>
